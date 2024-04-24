@@ -1,1 +1,2 @@
-# Image_Captioner
+# 🌃 ImageCaptioner 
+The script uses Hugging Face's transformers library to generate text captions from images. It first loads a pretrained Vision Encoder-Decoder model and a ViT image processor. The input image is converted to pixel values and is then processed using the ViT image processor. The model then generates text captions for the images, which are decoded using the tokenizer, producing the final output as a list of text captions
